@@ -41,6 +41,10 @@ export const metadata: Metadata = {
     default: 'Hosting Nation | Custom Web Development, SaaS & Software Company by Mohd Suhail',
     template: '%s | Hosting Nation'
   },
+    verification: {
+    google: '9E_EUGLm0kGIZi8x9QjV5ZcOpkz8xkDPFRdgzCAq9Sg',
+  },
+
   description:
     'Hosting Nation is a software development company founded by Mohd Suhail. We build custom web applications, SaaS platforms, e-commerce stores, API integrations, and business automation for startups and businesses worldwide.',
   keywords: siteConfig.keywords,
