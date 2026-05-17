@@ -137,7 +137,7 @@ export const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text:
-          'Yes. Hosting Nation builds custom software tailored to each client — including internal tools, admin dashboards, CRMs, ERPs, automation systems, and full-stack web applications using modern stacks like Next.js, Node.js, and MongoDB.'
+          'Yes. Hosting Nation builds custom software tailored to each client including internal tools, admin dashboards, CRMs, ERPs, automation systems, and full-stack web applications using modern stacks like Next.js, Node.js, and MongoDB.'
       }
     },
     {
@@ -155,7 +155,7 @@ export const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text:
-          'Yes. Hosting Nation works with clients globally — including the US, UK, Canada, UAE, Australia, and across Europe and Asia. Projects are delivered remotely with clear communication, milestone-based timelines, and long-term support.'
+          'Yes. Hosting Nation works with clients globally including the US, UK, Canada, UAE, Australia, and across Europe and Asia. Projects are delivered remotely with clear communication, milestone-based timelines, and long-term support.'
       }
     }
   ]

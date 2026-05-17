@@ -6,12 +6,12 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Services | Web Development, SaaS, Software & Automation — Hosting Nation',
+  title: 'Services | Web Development, SaaS, Software & Automation Hosting Nation',
   description:
-    'Hosting Nation services: custom web development, SaaS development, e-commerce, API integration, business automation, and custom software — by Mohd Suhail.',
+    'Hosting Nation services: custom web development, SaaS development, e-commerce, API integration, business automation, and custom software by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services` },
   openGraph: {
-    title: 'Services — Hosting Nation',
+    title: 'Services Hosting Nation',
     description:
       'Custom web development, SaaS, e-commerce, API integration, and business automation by Mohd Suhail.',
     url: `${siteConfig.url}/services`
@@ -43,7 +43,7 @@ export default function ServicesPage() {
           <span style={{ color: '#dc3545' }}>modern businesses</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed" style={{ color: '#606060' }}>
-          From websites to full-blown SaaS platforms — Hosting Nation, founded
+          From websites to full-blown SaaS platforms Hosting Nation, founded
           by Mohd Suhail, delivers production-ready software end-to-end.
         </p>
       </section>

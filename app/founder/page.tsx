@@ -8,9 +8,9 @@ import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation',
-  description: 'Mohd Suhail is the Founder & CEO of Hosting Nation. Full-stack developer specializing in React, Node.js, SaaS, dashboards, and API integration — working with startups and businesses globally.',
+  description: 'Mohd Suhail is the Founder & CEO of Hosting Nation. Full-stack developer specializing in React, Node.js, SaaS, dashboards, and API integration working with startups and businesses globally.',
   alternates: { canonical: `${siteConfig.url}/founder` },
-  openGraph: { title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation', description: 'Mohd Suhail — Founder & CEO of Hosting Nation.', url: `${siteConfig.url}/founder` },
+  openGraph: { title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation', description: 'Mohd Suhail Founder & CEO of Hosting Nation.', url: `${siteConfig.url}/founder` },
   keywords: ['Mohd Suhail','Suhail','Mohd Suhail Founder Hosting Nation','Hosting Nation founder']
 };
 
@@ -25,7 +25,7 @@ const TIMELINE = [
   { year: '2022', title: 'Founded Hosting Nation',       desc: 'Started Hosting Nation as a founder-led software studio to deliver custom web apps and SaaS products to startups globally.' },
   { year: '2023', title: 'Scaled to International Clients', desc: 'Onboarded clients across the US, UK, UAE, and Europe. Launched the first internal SaaS templates for faster delivery.' },
   { year: '2024', title: 'Specialized in SaaS & Automation', desc: 'Deepened focus on SaaS platforms, dashboards, and AI-powered business automation for growing companies.' },
-  { year: '2025+',title: 'Agency + Freelance Hybrid Model', desc: 'Operating Hosting Nation as both a focused agency and a freelance studio — flexible engagements for any size.' }
+  { year: '2025+',title: 'Agency + Freelance Hybrid Model', desc: 'Operating Hosting Nation as both a focused agency and a freelance studio flexible engagements for any size.' }
 ];
 
 export default function FounderPage() {
@@ -138,7 +138,7 @@ export default function FounderPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { t:'Freelance',      d:'Direct, founder-led engagement for focused builds — MVPs, landing pages, dashboards, integrations.' },
+              { t:'Freelance',      d:'Direct, founder-led engagement for focused builds MVPs, landing pages, dashboards, integrations.' },
               { t:'Agency',         d:'Full-team delivery for SaaS products, complex platforms, and long-term retainers with QA, design, and support.' },
               { t:'Fractional CTO', d:'Architecture, hiring, and tech leadership for early-stage startups that need senior judgment without a full-time hire.' }
             ].map(({ t, d }) => (

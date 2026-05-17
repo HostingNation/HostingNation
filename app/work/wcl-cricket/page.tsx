@@ -7,9 +7,9 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'WCL Cricket Case Study — Building for 409M Viewers | Hosting Nation',
+  title: 'WCL Cricket Case Study Building for 409M Viewers | Hosting Nation',
   description:
-    'How Hosting Nation built the official digital platform for World Championship of Legends Cricket — a UK T20 tournament watched by 409 million people, featuring AB de Villiers, Yuvraj Singh & Chris Gayle.',
+    'How Hosting Nation built the official digital platform for World Championship of Legends Cricket a UK T20 tournament watched by 409 million people, featuring AB de Villiers, Yuvraj Singh & Chris Gayle.',
   alternates: { canonical: `${siteConfig.url}/work/wcl-cricket` },
   openGraph: {
     title: 'WCL Cricket Case Study | Hosting Nation',
@@ -24,18 +24,18 @@ const FEATURES = [
   { title: 'Match Schedule & Results', desc: 'Real-time-ready layout for fixtures, scores, standings, and match summaries.' },
   { title: 'News & Media Hub', desc: 'Press-ready coverage section for broadcast partners, journalists, and media organizations.' },
   { title: 'Mobile-First Experience', desc: 'Optimized for cricket fans watching from phones across India, UK, West Indies, and beyond.' },
-  { title: 'Performance Under Load', desc: 'Sub-2s load times on match days when global traffic spikes — no downtime, no incidents.' },
-  { title: 'SEO Architecture', desc: 'Structured for search visibility across multiple countries — India, UK, West Indies, South Africa.' },
+  { title: 'Performance Under Load', desc: 'Sub-2s load times on match days when global traffic spikes no downtime, no incidents.' },
+  { title: 'SEO Architecture', desc: 'Structured for search visibility across multiple countries India, UK, West Indies, South Africa.' },
   { title: 'Social Sharing', desc: 'Open Graph optimization and shareable content blocks for match-day viral reach.' },
 ];
 
 const STACK = ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel', 'Headless CMS', 'Google Analytics 4'];
 
 const RESULTS = [
-  'Launched on schedule — zero missed deadlines before tournament start',
+  'Launched on schedule zero missed deadlines before tournament start',
   '409 million viewers globally during the 2025 season',
   'Zero downtime on match days despite major traffic spikes',
-  'Media coverage by NDTV, Hindustan Times, The Hindu, Tribune India — all citing the official site',
+  'Media coverage by NDTV, Hindustan Times, The Hindu, Tribune India all citing the official site',
   'Clean, professional digital presence matching the stature of an international sporting event',
 ];
 
@@ -71,7 +71,7 @@ export default function WCLCricketCaseStudy() {
 
           <p className="mt-5 text-lg leading-relaxed" style={{ color: '#606060' }}>
             World Championship of Legends Cricket needed a flagship digital presence worthy of an internationally broadcast sporting event.
-            Hosting Nation built it — on time, under pressure, and without a single incident on match day.
+            Hosting Nation built it on time, under pressure, and without a single incident on match day.
           </p>
 
           <div className="flex flex-wrap gap-3 mt-8">
@@ -134,7 +134,7 @@ export default function WCLCricketCaseStudy() {
               </h2>
               <div className="space-y-3 text-sm leading-relaxed" style={{ color: '#606060' }}>
                 <p>
-                  The World Championship of Legends is a T20 tournament featuring retired international cricket legends — AB de Villiers, Yuvraj Singh, Chris Gayle, Shoaib Akhtar, and more. The 2025 edition drew a global audience of 409 million viewers.
+                  The World Championship of Legends is a T20 tournament featuring retired international cricket legends AB de Villiers, Yuvraj Singh, Chris Gayle, Shoaib Akhtar, and more. The 2025 edition drew a global audience of 409 million viewers.
                 </p>
                 <p>
                   WCL needed a digital presence that could handle the scale and credibility of a globally broadcast sporting event. The existing online presence did not reflect the stature of the tournament or the legends competing in it.
@@ -206,7 +206,7 @@ export default function WCLCricketCaseStudy() {
             Covered by India&apos;s <span style={{ color: '#dc3545' }}>biggest outlets</span>
           </h2>
           <p className="text-sm leading-relaxed mb-8" style={{ color: '#606060' }}>
-            The WCL 2025 tournament — and its official digital platform — was covered by leading Indian and international media.
+            The WCL 2025 tournament and its official digital platform was covered by leading Indian and international media.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {['NDTV', 'Hindustan Times', 'The Hindu', 'Tribune India'].map((m) => (
@@ -225,10 +225,10 @@ export default function WCLCricketCaseStudy() {
           style={{ background: '#f9f9f9', border: '1px solid #ebebeb' }}>
           <div className="text-4xl mb-4" style={{ color: '#ebebeb' }}>&ldquo;</div>
           <p className="text-lg font-semibold italic leading-relaxed" style={{ color: '#888888' }}>
-            Testimonial from WCL management — coming soon.
+            Testimonial from WCL management coming soon.
           </p>
           <div className="mt-6">
-            <p className="text-sm font-bold" style={{ color: '#000' }}>— WCL Management</p>
+            <p className="text-sm font-bold" style={{ color: '#000' }} WCL Management</p>
             <p className="text-xs mt-1" style={{ color: '#888' }}>World Championship of Legends, United Kingdom</p>
           </div>
         </div>

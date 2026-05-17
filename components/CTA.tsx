@@ -19,7 +19,7 @@ export default function CTA() {
               that <span style={{ color: '#dc3545' }}>actually works?</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed max-w-md" style={{ color: '#888888' }}>
-              Whether you have a fully scoped brief or just an idea on a napkin — a 30-minute call is enough to figure out if we&apos;re the right fit.
+              Whether you have a fully scoped brief or just an idea on a napkin a 30-minute call is enough to figure out if we&apos;re the right fit.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               <Link href="/contact"

@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
       from:    'Hosting Nation <onboarding@resend.dev>',   // ← temp until domain verified
       to:      [process.env.CONTACT_EMAIL!],
       replyTo: email.trim(),
-      subject: `New enquiry from ${name.trim()} — Hosting Nation`,
+      subject: `New enquiry from ${name.trim()} Hosting Nation`,
       html: `
         <div style="font-family:sans-serif;max-width:620px;margin:auto;color:#333">
           <div style="background:#dc3545;padding:24px 32px;border-radius:12px 12px 0 0">

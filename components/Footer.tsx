@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { href: '/about',   l: 'About' },
-                { href: '/founder', l: 'Founder — Mohd Suhail' },
+                { href: '/founder', l: 'Founder - Mohd Suhail' },
                 { href: '/services',l: 'Services' },
                 { href: '/contact', l: 'Contact' },
               ].map(({ href, l }) => (

@@ -7,7 +7,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Pricing | Hosting Nation — Web Development & SaaS',
+  title: 'Pricing | Hosting Nation Web Development & SaaS',
   description:
     'Transparent, fixed-price web development packages. Starter from $1,500 · Business from $4,000 · SaaS MVP from $8,000 · Enterprise custom. No surprises.',
   alternates: { canonical: `${siteConfig.url}/pricing` },
@@ -28,7 +28,7 @@ const TIERS = [
     featured:  false,
     includes: [
       'Up to 8 pages or screens',
-      'Custom design — no templates',
+      'Custom design no templates',
       'Next.js or React frontend',
       'Contact / lead form with email notification',
       'Mobile-responsive layout',
@@ -104,7 +104,7 @@ const TIERS = [
 const FAQS = [
   {
     q: 'Do you work on fixed-price or hourly contracts?',
-    a: 'Both. Most projects are fixed-price with a defined scope — this protects you from bill shock. For ongoing work or evolving requirements, we offer a monthly retainer with a set number of hours. We\'ll recommend the right model on our first call.',
+    a: 'Both. Most projects are fixed-price with a defined scope this protects you from bill shock. For ongoing work or evolving requirements, we offer a monthly retainer with a set number of hours. We\'ll recommend the right model on our first call.',
   },
   {
     q: 'How do payments work?',
@@ -112,11 +112,11 @@ const FAQS = [
   },
   {
     q: 'What if I need changes after the project is live?',
-    a: 'All tiers include post-launch support — 14 to 60 days depending on the plan — covering bug fixes and minor adjustments at no extra cost. Feature additions after delivery are scoped separately.',
+    a: 'All tiers include post-launch support 14 to 60 days depending on the plan covering bug fixes and minor adjustments at no extra cost. Feature additions after delivery are scoped separately.',
   },
   {
     q: 'Can I start with Starter and upgrade later?',
-    a: 'Yes. We build with modularity in mind. Starting with a clean frontend now doesn\'t trap you — we can add the backend layer in a follow-on project. That said, if you already know you\'ll need auth and a database, starting at Business will save you money.',
+    a: 'Yes. We build with modularity in mind. Starting with a clean frontend now doesn\'t trap you we can add the backend layer in a follow-on project. That said, if you already know you\'ll need auth and a database, starting at Business will save you money.',
   },
   {
     q: 'Do you sign NDAs?',
@@ -141,7 +141,7 @@ export default function PricingPage() {
             <span style={{ color: '#dc3545' }}>No surprises.</span>
           </h1>
           <p className="mt-5 text-lg leading-relaxed" style={{ color: '#606060' }}>
-            Every quote at Hosting Nation is scoped against your actual requirements. The tiers below are starting points — not ceilings. If your project doesn&apos;t fit neatly into a box, we&apos;ll scope it honestly.
+            Every quote at Hosting Nation is scoped against your actual requirements. The tiers below are starting points not ceilings. If your project doesn&apos;t fit neatly into a box, we&apos;ll scope it honestly.
           </p>
         </div>
       </section>

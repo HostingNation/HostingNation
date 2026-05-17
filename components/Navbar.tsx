@@ -26,7 +26,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between h-[64px]" aria-label="Primary navigation">
 
         {/* Logo */}
-        <NavLink href="/" className="flex items-center gap-2.5 group" aria-label="Hosting Nation — Home">
+        <NavLink href="/" className="flex items-center gap-2.5 group" aria-label="Hosting Nation Home">
           <span className="w-8 h-8 rounded-full grid place-items-center bg-white"
            >
 <Image src="/Logo.png" width={100} height={100} alt="Logo" />          </span>
@@ -51,7 +51,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA buttons — ViralPitch style */}
         <div className="hidden md:flex items-center gap-3">
           <NavLink href="/services"
             className="px-5 py-2 text-sm font-semibold transition-all duration-200"

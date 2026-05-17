@@ -9,11 +9,11 @@ import { siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Work & Portfolio | Hosting Nation by Mohd Suhail',
   description:
-    'Projects built by Hosting Nation — including WCL Cricket (409M viewers), Cromy e-commerce, and Growwfix. Custom web development, SaaS, and e-commerce.',
+    'Projects built by Hosting Nation including WCL Cricket (409M viewers), Cromy e-commerce, and Growwfix. Custom web development, SaaS, and e-commerce.',
   alternates: { canonical: `${siteConfig.url}/work` },
   openGraph: {
     title: 'Work & Portfolio | Hosting Nation',
-    description: 'Real projects built by Hosting Nation — from a 409M-viewer sports platform to premium e-commerce.',
+    description: 'Real projects built by Hosting Nation from a 409M-viewer sports platform to premium e-commerce.',
     url: `${siteConfig.url}/work`,
   },
 };
@@ -24,7 +24,7 @@ const PROJECTS = [
     eyebrow:    'Sports · United Kingdom',
     title:      'WCL Cricket',
     url:        'wclcricket.com',
-    desc:       'Official digital platform for the World Championship of Legends — a UK T20 tournament featuring AB de Villiers, Yuvraj Singh, and Chris Gayle. Watched by 409 million people in 2025. Covered by NDTV, Hindustan Times, and The Hindu.',
+    desc:       'Official digital platform for the World Championship of Legends a UK T20 tournament featuring AB de Villiers, Yuvraj Singh, and Chris Gayle. Watched by 409 million people in 2025. Covered by NDTV, Hindustan Times, and The Hindu.',
     tags:       ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     stat:       '409M viewers',
     accent:     '#dc3545',
@@ -36,7 +36,7 @@ const PROJECTS = [
     eyebrow:    'E-commerce · India',
     title:      'Cromy.in',
     url:        'cromy.in',
-    desc:       'End-to-end custom e-commerce storefront for a premium jeans brand in Delhi. Product catalog, cart, checkout, order management — all on a custom Next.js build.',
+    desc:       'End-to-end custom e-commerce storefront for a premium jeans brand in Delhi. Product catalog, cart, checkout, order management all on a custom Next.js build.',
     tags:       ['Next.js', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
     stat:       'Custom storefront',
     accent:     '#0284c7',
@@ -70,10 +70,10 @@ export default function WorkPage() {
         <div className="max-w-3xl">
           <span className="eyebrow mb-4 block">Portfolio</span>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05]">
-            Real clients. <span style={{ color: '#dc3545' }}>Real results.</span>
+            Real clients <span style={{ color: '#dc3545' }}>Real results.</span>
           </h1>
           <p className="mt-5 text-lg leading-relaxed" style={{ color: '#606060' }}>
-            From a 409-million-viewer sports platform to premium e-commerce — here&apos;s what Hosting Nation has built for real clients across the UK, India, and beyond.
+            From a 409-million-viewer sports platform to premium e-commerce here&apos;s what Hosting Nation has built for real clients across the UK, India, and beyond.
           </p>
         </div>
       </section>
@@ -149,7 +149,7 @@ export default function WorkPage() {
             Your project could be <span style={{ color: '#dc3545' }}>next</span>
           </h2>
           <p className="text-base leading-relaxed mb-7" style={{ color: '#606060' }}>
-            Whether it&apos;s a SaaS MVP, an e-commerce store, or a platform for millions — we&apos;ve built at scale before. Let&apos;s talk about what you&apos;re building.
+            Whether it&apos;s a SaaS MVP, an e-commerce store, or a platform for millions we&apos;ve built at scale before. Let&apos;s talk about what you&apos;re building.
           </p>
           <Link href="/contact" className="btn-primary">
             Start a Project <ArrowRight size={16} />

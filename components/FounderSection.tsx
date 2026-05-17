@@ -14,12 +14,12 @@ export default function FounderSection() {
               Built by <span style={{ color: '#dc3545' }}>Mohd Suhail</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed" style={{ color: '#606060' }}>
-              <strong style={{ color: '#000000', fontWeight: 700 }}>Mohd Suhail</strong> is the Founder &amp; CEO of Hosting Nation —
+              <strong style={{ color: '#000000', fontWeight: 700 }}>Mohd Suhail</strong> is the Founder &amp; CEO of Hosting Nation
               a software studio that ships custom web apps, SaaS platforms, and automation tools
               for startups and businesses worldwide.
             </p>
             <p className="mt-3 text-sm leading-relaxed" style={{ color: '#888888' }}>
-              Every project is founder-led: you work directly with Suhail — no hand-offs,
+              Every project is founder-led: you work directly with Suhail no hand-offs,
               no junior developers, no template sites.
             </p>
 

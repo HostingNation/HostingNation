@@ -1,7 +1,7 @@
 import { Lightbulb, Pencil, Rocket, LifeBuoy } from 'lucide-react';
 
 const STEPS = [
-  { icon: Lightbulb, num: '01', title: 'Discovery Call',   iconColor: '#dc3545', desc: '30 minutes to understand your business, your users, and what you actually need — not what sounds good on paper. Day 1.' },
+  { icon: Lightbulb, num: '01', title: 'Discovery Call',   iconColor: '#dc3545', desc: '30 minutes to understand your business, your users, and what you actually need not what sounds good on paper. Day 1.' },
   { icon: Pencil,    num: '02', title: 'Scope & Proposal', iconColor: '#0284c7', desc: 'You get a clear project scope, timeline, and fixed price. No surprises, no hidden fees. Delivered in 2–4 days.' },
   { icon: Rocket,    num: '03', title: 'Build & Ship',     iconColor: '#059669', desc: 'We build in sprints, share progress weekly, and deploy to staging for your review at every milestone.' },
   { icon: LifeBuoy,  num: '04', title: 'Launch & Support', iconColor: '#ea580c', desc: 'We handle deployment, post-launch fixes, and stay available for 30 days after go-live. Shipping is not the finish line.' },

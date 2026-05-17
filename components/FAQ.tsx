@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
 
 const FAQS = [
-  { q: 'Who is Mohd Suhail?', a: 'Mohd Suhail is the Founder & CEO of Hosting Nation — a full-stack engineer specializing in React, Next.js, Node.js, and MongoDB. He works with startups and businesses globally on freelance and agency projects.' },
+  { q: 'Who is Mohd Suhail?', a: 'Mohd Suhail is the Founder & CEO of Hosting Nation a full-stack engineer specializing in React, Next.js, Node.js, and MongoDB. He works with startups and businesses globally on freelance and agency projects.' },
   { q: 'What is Hosting Nation?', a: 'A modern software development studio founded by Mohd Suhail. We build custom web applications, SaaS products, e-commerce stores, API integrations, and business automation for startups worldwide.' },
-  { q: 'Does Hosting Nation build custom software?', a: "Yes — it's our core focus. We build admin panels, internal tools, CRMs, ERPs, and full-stack platforms engineered around your specific workflow, not a template." },
+  { q: 'Does Hosting Nation build custom software?', a: "Yes it's our core focus. We build admin panels, internal tools, CRMs, ERPs, and full-stack platforms engineered around your specific workflow, not a template." },
   { q: 'Can you build a SaaS product?', a: 'Absolutely. End-to-end: multi-tenant architecture, auth, subscription billing (Stripe/Razorpay), role-based access, dashboards, analytics, and cloud deployment on Vercel or AWS.' },
-  { q: 'Do you work with international clients?', a: 'Yes. We serve clients in the US, UK, Canada, UAE, Australia, and across Europe and Asia — fully remote with clear communication and milestone-based delivery.' },
+  { q: 'Do you work with international clients?', a: 'Yes. We serve clients in the US, UK, Canada, UAE, Australia, and across Europe and Asia fully remote with clear communication and milestone-based delivery.' },
 ];
 
 export default function FAQ() {

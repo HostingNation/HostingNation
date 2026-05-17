@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteConfig.url}/services/web-development` },
   openGraph: {
     title: 'Web Development Services | Hosting Nation',
-    description: 'High-performance websites and full-stack web apps — built with Next.js, React, Node.js, and MongoDB.',
+    description: 'High-performance websites and full-stack web apps built with Next.js, React, Node.js, and MongoDB.',
     url: `${siteConfig.url}/services/web-development`,
   },
   keywords: [
@@ -27,7 +27,7 @@ export default function WebDevelopmentPage() {
       title="Modern websites & web apps that convert"
       highlight="websites & web apps"
       serviceType="Web Development"
-      intro="Your website is your most valuable sales tool — and most business websites are quietly losing you clients. Hosting Nation builds fast, SEO-friendly, mobile-first websites and full-stack web applications. From marketing sites to complex dashboards — every project is hand-coded with Next.js, React, and Node.js."
+      intro="Your website is your most valuable sales tool and most business websites are quietly losing you clients. Hosting Nation builds fast, SEO-friendly, mobile-first websites and full-stack web applications. From marketing sites to complex dashboards every project is hand-coded with Next.js, React, and Node.js."
       whoFor={[
         'Startups launching their first professional web presence',
         'Businesses replacing slow, outdated WordPress sites',
@@ -51,11 +51,11 @@ export default function WebDevelopmentPage() {
       longFormSections={[
         {
           heading: 'Build a Website That Works as Hard as You Do',
-          body: 'Most business websites have the same problem: they look fine, but they don\'t convert. Slow load times, confusing navigation, copy that says nothing, and a design that looked modern in 2018 are all costing you leads. At Hosting Nation, we build websites that are fast, focused, and built to convert — not just to look good in a screenshot.',
+          body: 'Most business websites have the same problem: they look fine, but they don\'t convert. Slow load times, confusing navigation, copy that says nothing, and a design that looked modern in 2018 are all costing you leads. At Hosting Nation, we build websites that are fast, focused, and built to convert not just to look good in a screenshot.',
         },
         {
           heading: 'Why Next.js and Not WordPress?',
-          body: 'We work in Next.js and React for the frontend — the same technology stack used by Vercel, Netflix, and thousands of high-growth startups. The result is a website that is fast by default, SEO-friendly by architecture, and easy to extend as your needs grow. WordPress is accessible, but it carries a performance and security ceiling that modern businesses shouldn\'t have to accept. We recommend the right tool for your situation on the discovery call.',
+          body: 'We work in Next.js and React for the frontend the same technology stack used by Vercel, Netflix, and thousands of high-growth startups. The result is a website that is fast by default, SEO-friendly by architecture, and easy to extend as your needs grow. WordPress is accessible, but it carries a performance and security ceiling that modern businesses shouldn\'t have to accept. We recommend the right tool for your situation on the discovery call.',
         },
         {
           heading: 'What\'s Included in Every Web Development Project',
@@ -63,7 +63,7 @@ export default function WebDevelopmentPage() {
         },
         {
           heading: 'SEO Built Into the Architecture, Not Added On',
-          body: 'Search engine optimization is not a plugin or an afterthought at Hosting Nation — it is built into how we structure every project. Server-side rendering with Next.js means your content is crawlable by default. Clean URL structures, proper heading hierarchies, structured data markup, and fast Core Web Vitals scores give your site the technical foundation to rank. We set up Google Search Console and Analytics on every project.',
+          body: 'Search engine optimization is not a plugin or an afterthought at Hosting Nation it is built into how we structure every project. Server-side rendering with Next.js means your content is crawlable by default. Clean URL structures, proper heading hierarchies, structured data markup, and fast Core Web Vitals scores give your site the technical foundation to rank. We set up Google Search Console and Analytics on every project.',
         },
       ]}
       faqs={[
@@ -73,7 +73,7 @@ export default function WebDevelopmentPage() {
         },
         {
           q: 'Can you redesign an existing site without rebuilding from scratch?',
-          a: 'It depends on the existing codebase. We\'ll assess it on the discovery call. In most cases, a rebuild on a modern stack is faster and cleaner than retrofitting bad code — and it costs less in the long run.',
+          a: 'It depends on the existing codebase. We\'ll assess it on the discovery call. In most cases, a rebuild on a modern stack is faster and cleaner than retrofitting bad code and it costs less in the long run.',
         },
         {
           q: 'Will I be able to update content myself after launch?',

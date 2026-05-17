@@ -7,9 +7,9 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Blog | Hosting Nation — Web Development & SaaS Insights',
+  title: 'Blog | Hosting Nation Web Development & SaaS Insights',
   description:
-    'Practical guides on SaaS development, Next.js, web performance, and building software for startups — by Mohd Suhail, Founder of Hosting Nation.',
+    'Practical guides on SaaS development, Next.js, web performance, and building software for startups by Mohd Suhail, Founder of Hosting Nation.',
   alternates: { canonical: `${siteConfig.url}/blog` },
   openGraph: {
     title: 'Blog | Hosting Nation',
@@ -24,7 +24,7 @@ const POSTS = [
     date:     'May 2025',
     tag:      'SaaS Development',
     title:    'How to Build a SaaS MVP in 8 Weeks: A Technical Roadmap',
-    excerpt:  'The 8-week timeline is real — but only if you make the right decisions early. A week-by-week technical roadmap from scope to production launch.',
+    excerpt:  'The 8-week timeline is real but only if you make the right decisions early. A week-by-week technical roadmap from scope to production launch.',
     readTime: '12 min read',
   },
   {
@@ -40,7 +40,7 @@ const POSTS = [
     date:     'April 2025',
     tag:      'Web Development',
     title:    'Next.js vs WordPress: Which Is Better for Your Business Website?',
-    excerpt:  'A direct, practical comparison — not a Next.js advertisement. The honest answer depends on what you actually need.',
+    excerpt:  'A direct, practical comparison not a Next.js advertisement. The honest answer depends on what you actually need.',
     readTime: '10 min read',
   },
 ];
@@ -60,7 +60,7 @@ export default function BlogPage() {
             Insights on building <span style={{ color: '#dc3545' }}>real software</span>
           </h1>
           <p className="mt-5 text-lg leading-relaxed" style={{ color: '#606060' }}>
-            Practical guides on SaaS development, Next.js, web performance, and building products that work — written by Mohd Suhail, Founder of Hosting Nation.
+            Practical guides on SaaS development, Next.js, web performance, and building products that work written by Mohd Suhail, Founder of Hosting Nation.
           </p>
         </div>
       </section>

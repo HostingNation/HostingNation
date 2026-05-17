@@ -9,24 +9,24 @@ import { siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Next.js vs WordPress: Which Is Better for Your Business Website? | Hosting Nation',
   description:
-    'A direct, balanced comparison of Next.js and WordPress for business websites. Not a Next.js advertisement — the honest answer depends on what you actually need.',
+    'A direct, balanced comparison of Next.js and WordPress for business websites. Not a Next.js advertisement the honest answer depends on what you actually need.',
   alternates: { canonical: `${siteConfig.url}/blog/nextjs-vs-wordpress-business-website` },
   openGraph: {
     title: 'Next.js vs WordPress: Which Is Better for Your Business Website? | Hosting Nation',
-    description: 'A direct, practical comparison — the honest answer depends on what you actually need.',
+    description: 'A direct, practical comparison the honest answer depends on what you actually need.',
     url: `${siteConfig.url}/blog/nextjs-vs-wordpress-business-website`,
   },
   keywords: ['Next.js vs WordPress', 'best website platform for business', 'WordPress alternatives', 'Next.js for business', 'should I use WordPress'],
 };
 
 const COMPARISON = [
-  { dimension: 'Page load speed',     nextjs: 'Excellent — server-side rendering, edge delivery', wordpress: 'Moderate — depends heavily on plugins and hosting', winner: 'next' },
-  { dimension: 'Security',            nextjs: 'Strong — small attack surface, no plugin vulnerabilities', wordpress: 'Risky — most hacked CMS in the world due to plugins', winner: 'next' },
-  { dimension: 'Content editing',     nextjs: 'Requires CMS setup (Sanity, Contentful)', wordpress: 'Built-in WYSIWYG editor — easy for non-developers', winner: 'wp' },
-  { dimension: 'Customization',       nextjs: 'No limits — write anything you need', wordpress: 'Limited by theme and plugin ecosystem', winner: 'next' },
+  { dimension: 'Page load speed',     nextjs: 'Excellent server-side rendering, edge delivery', wordpress: 'Moderate depends heavily on plugins and hosting', winner: 'next' },
+  { dimension: 'Security',            nextjs: 'Strong small attack surface, no plugin vulnerabilities', wordpress: 'Risky most hacked CMS in the world due to plugins', winner: 'next' },
+  { dimension: 'Content editing',     nextjs: 'Requires CMS setup (Sanity, Contentful)', wordpress: 'Built-in WYSIWYG editor easy for non-developers', winner: 'wp' },
+  { dimension: 'Customization',       nextjs: 'No limits write anything you need', wordpress: 'Limited by theme and plugin ecosystem', winner: 'next' },
   { dimension: 'Long-term cost',      nextjs: 'Higher upfront, lower ongoing', wordpress: 'Lower upfront, higher ongoing (plugins, updates, security)', winner: 'draw' },
-  { dimension: 'SEO',                 nextjs: 'Excellent — fast, crawlable, structured data built-in', wordpress: 'Good with the right plugins (Yoast, RankMath)', winner: 'next' },
-  { dimension: 'Developer ecosystem', nextjs: 'Growing fast — used by top tech companies', wordpress: 'Massive — most widely used CMS in the world', winner: 'wp' },
+  { dimension: 'SEO',                 nextjs: 'Excellent fast, crawlable, structured data built-in', wordpress: 'Good with the right plugins (Yoast, RankMath)', winner: 'next' },
+  { dimension: 'Developer ecosystem', nextjs: 'Growing fast used by top tech companies', wordpress: 'Massive most widely used CMS in the world', winner: 'wp' },
 ];
 
 export default function NextjsVsWordpressBlogPost() {
@@ -55,10 +55,10 @@ export default function NextjsVsWordpressBlogPost() {
               <span style={{ color: '#dc3545' }}>Business Website?</span>
             </h1>
             <p className="mt-5 text-lg leading-relaxed" style={{ color: '#606060' }}>
-              A direct, balanced comparison — not a Next.js advertisement. The honest answer depends on what you actually need. We build in both, and we recommend the right one for each client.
+              A direct, balanced comparison not a Next.js advertisement. The honest answer depends on what you actually need. We build in both, and we recommend the right one for each client.
             </p>
             <p className="mt-3 text-sm font-semibold" style={{ color: '#888888' }}>
-              By Mohd Suhail, Founder — Hosting Nation
+              By Mohd Suhail, Founder Hosting Nation
             </p>
           </div>
         </section>
@@ -71,7 +71,7 @@ export default function NextjsVsWordpressBlogPost() {
                 The Quick Answer
               </h2>
               <p className="text-base leading-relaxed" style={{ color: '#606060' }}>
-                WordPress is excellent for content-heavy sites managed by non-developers who need to update pages frequently. Next.js is better for any site where performance, security, and long-term extensibility matter — including most business websites, SaaS products, and anything you plan to grow into a web application.
+                WordPress is excellent for content-heavy sites managed by non-developers who need to update pages frequently. Next.js is better for any site where performance, security, and long-term extensibility matter including most business websites, SaaS products, and anything you plan to grow into a web application.
               </p>
               <p className="mt-3 text-base leading-relaxed" style={{ color: '#606060' }}>
                 The platform decision is secondary to what you actually need to build. Read on for the honest comparison.
@@ -80,25 +80,25 @@ export default function NextjsVsWordpressBlogPost() {
 
             <div>
               <h2 className="text-xl md:text-2xl font-extrabold mb-4" style={{ color: '#000000' }}>
-                What WordPress Is — And Why It Still Dominates
+                What WordPress Is And Why It Still Dominates
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: '#606060' }}>
-                WordPress powers approximately 43% of all websites on the internet. That market share is not because it is technically superior — it is because it is accessible. A non-developer can set up a WordPress site, install a theme, and publish content without writing a line of code.
+                WordPress powers approximately 43% of all websites on the internet. That market share is not because it is technically superior it is because it is accessible. A non-developer can set up a WordPress site, install a theme, and publish content without writing a line of code.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#606060' }}>
-                The plugin ecosystem is both WordPress&apos;s greatest strength and its biggest liability. Plugins add functionality quickly, but they also introduce security vulnerabilities, performance overhead, and dependency management problems. Most WordPress security incidents are caused by outdated or poorly maintained plugins — not WordPress itself.
+                The plugin ecosystem is both WordPress&apos;s greatest strength and its biggest liability. Plugins add functionality quickly, but they also introduce security vulnerabilities, performance overhead, and dependency management problems. Most WordPress security incidents are caused by outdated or poorly maintained plugins not WordPress itself.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl md:text-2xl font-extrabold mb-4" style={{ color: '#000000' }}>
-                What Next.js Is — And Why Developers Love It
+                What Next.js Is And Why Developers Love It
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: '#606060' }}>
-                Next.js is a React-based framework built by Vercel. It handles server-side rendering, static generation, and client-side navigation — which means fast initial page loads, excellent SEO, and a smooth user experience. It is the framework of choice for most high-growth tech companies, funded startups, and engineering teams that care about performance.
+                Next.js is a React-based framework built by Vercel. It handles server-side rendering, static generation, and client-side navigation which means fast initial page loads, excellent SEO, and a smooth user experience. It is the framework of choice for most high-growth tech companies, funded startups, and engineering teams that care about performance.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#606060' }}>
-                The key distinction: Next.js is a development framework, not a CMS. It does not come with a built-in content editor. If you want non-developers to update content, you pair it with a headless CMS like Sanity or Contentful. That adds a setup step — but the result is a faster, more secure, and more flexible site than WordPress can produce.
+                The key distinction: Next.js is a development framework, not a CMS. It does not come with a built-in content editor. If you want non-developers to update content, you pair it with a headless CMS like Sanity or Contentful. That adds a setup step but the result is a faster, more secure, and more flexible site than WordPress can produce.
               </p>
             </div>
 
@@ -165,7 +165,7 @@ export default function NextjsVsWordpressBlogPost() {
                   'Your website will evolve into a web app with user accounts or dashboards',
                   'You care about Core Web Vitals and technical SEO',
                   'You want full control over the tech stack and hosting',
-                  'You plan to add features over time — e-commerce, booking, payments',
+                  'You plan to add features over time e-commerce, booking, payments',
                 ].map((item) => (
                   <li key={item} className="flex gap-3 text-base leading-relaxed" style={{ color: '#606060' }}>
                     <Check size={15} className="text-red-600 shrink-0 mt-0.5" />{item}
@@ -179,10 +179,10 @@ export default function NextjsVsWordpressBlogPost() {
                 The Hybrid Option: Headless WordPress
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: '#606060' }}>
-                Some clients want the WordPress content editor for their editorial team but Next.js performance for their users. This is achievable with a headless WordPress architecture — WordPress handles content management, and a Next.js frontend fetches and renders that content.
+                Some clients want the WordPress content editor for their editorial team but Next.js performance for their users. This is achievable with a headless WordPress architecture WordPress handles content management, and a Next.js frontend fetches and renders that content.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#606060' }}>
-                This is a valid approach for high-traffic publishing sites or large editorial teams. For most business websites, it is overkill — a simpler headless CMS like Sanity gives the same editorial flexibility with less infrastructure complexity.
+                This is a valid approach for high-traffic publishing sites or large editorial teams. For most business websites, it is overkill a simpler headless CMS like Sanity gives the same editorial flexibility with less infrastructure complexity.
               </p>
             </div>
 
@@ -191,10 +191,10 @@ export default function NextjsVsWordpressBlogPost() {
                 The Bottom Line
               </h2>
               <p className="text-base leading-relaxed mb-3" style={{ color: '#606060' }}>
-                WordPress has a low floor and a low ceiling. Next.js has a higher floor and no ceiling. If your business website will never need to do anything more than display content and a contact form — WordPress is fine. If you have any ambition beyond that, start with Next.js and you won&apos;t need to migrate later.
+                WordPress has a low floor and a low ceiling. Next.js has a higher floor and no ceiling. If your business website will never need to do anything more than display content and a contact form WordPress is fine. If you have any ambition beyond that, start with Next.js and you won&apos;t need to migrate later.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#606060' }}>
-                The platform decision is secondary to the business problem you&apos;re solving. If you need help deciding — that&apos;s what the discovery call is for.
+                The platform decision is secondary to the business problem you&apos;re solving. If you need help deciding that&apos;s what the discovery call is for.
               </p>
             </div>
 
@@ -203,7 +203,7 @@ export default function NextjsVsWordpressBlogPost() {
                 Not sure which is right for your project?
               </p>
               <p className="text-sm mb-4" style={{ color: '#606060' }}>
-                At Hosting Nation, we build in both — and we recommend the right tool for each client&apos;s specific situation. A 30-minute call is enough to give you a clear answer.
+                At Hosting Nation, we build in both and we recommend the right tool for each client&apos;s specific situation. A 30-minute call is enough to give you a clear answer.
               </p>
               <Link href="/contact" className="btn-primary inline-flex">
                 Book a Free Strategy Call <ArrowRight size={15} />

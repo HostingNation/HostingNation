@@ -15,12 +15,12 @@ const REASONS = [
   {
     num: '03',
     title: 'We work in your timezone.',
-    desc: 'Whether you\'re in New York, London, or Dubai — we show up to calls, we respond to messages, and we ship on time. No excuses.',
+    desc: 'Whether you\'re in New York, London, or Dubai we show up to calls, we respond to messages, and we ship on time. No excuses.',
   },
   {
     num: '04',
     title: 'No offshore hand-offs. No disappearing acts.',
-    desc: 'Clean code, honest communication, and delivery that matches what was scoped. That\'s the standard on every project — not just the first one.',
+    desc: 'Clean code, honest communication, and delivery that matches what was scoped. That\'s the standard on every project not just the first one.',
   },
 ];
 

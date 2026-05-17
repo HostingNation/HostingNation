@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const STATS = [
-  { k: '50+',   v: 'Projects Delivered' },
-  { k: '15+',   v: 'Countries Served' },
-  { k: '409M',  v: 'Viewers — Biggest Client' },
+  // { k: '50+',   v: 'Projects Delivered' },
+  // { k: '15+',   v: 'Countries Served' },
+  { k: '409M',  v: 'Viewers Biggest Client' },
   { k: '3yr+',  v: 'In Business' },
 ];
 
@@ -25,12 +25,12 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-[60px] font-extrabold leading-[1.06] tracking-tight" style={{ color: '#000000' }}>
               We Build Software<br />
               <span style={{ color: '#dc3545' }}>That Scales</span><br />
-              — From MVP to Millions
+              From MVP to Millions
             </h1>
 
             <p className="mt-5 text-lg leading-relaxed slide-up-delay" style={{ color: '#606060' }}>
               Hosting Nation is a full-stack development studio trusted by startups and brands
-              across the US, UK, UAE, and beyond — led directly by{' '}
+              across the US, UK, UAE, and beyond led directly by{' '}
               <Link href="/founder" className="font-semibold underline underline-offset-2 transition-colors" style={{ color: '#000000' }}>
                 Mohd Suhail
               </Link>. We ship clean code, fast.
@@ -38,9 +38,9 @@ export default function Hero() {
 
             <ul className="mt-6 space-y-2.5 slide-up-delay">
               {[
-                'No templates — everything engineered from scratch',
+                'No templates everything engineered from scratch',
                 'You talk to the founder, not a project manager',
-                'Built for WCL Cricket — watched by 409M people',
+                'Built for WCL Cricket watched by 409M people',
               ].map((t) => (
                 <li key={t} className="flex items-center gap-2.5 text-sm" style={{ color: '#606060' }}>
                   <CheckCircle2 size={15} style={{ color: '#dc3545', flexShrink: 0 }} />

@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Hosting Nation | Custom Web Development & SaaS by Mohd Suhail',
-    description: 'Modern custom software, web apps & SaaS — built by Mohd Suhail, Founder of Hosting Nation.',
+    description: 'Modern custom software, web apps & SaaS built by Mohd Suhail, Founder of Hosting Nation.',
     images: ['/images/og-cover.png'],
     creator: '@hostingnation'
   },

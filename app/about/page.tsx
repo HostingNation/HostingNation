@@ -8,16 +8,16 @@ import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'About Hosting Nation | Software Company Founded by Mohd Suhail',
-  description: 'Learn about Hosting Nation — a software development company founded by Mohd Suhail. We build custom web apps, SaaS platforms, and business automation for startups and businesses worldwide.',
+  description: 'Learn about Hosting Nation a software development company founded by Mohd Suhail. We build custom web apps, SaaS platforms, and business automation for startups and businesses worldwide.',
   alternates: { canonical: `${siteConfig.url}/about` },
   openGraph: { title: 'About Hosting Nation | Software Company Founded by Mohd Suhail', description: 'Hosting Nation is a software development company founded by Mohd Suhail.', url: `${siteConfig.url}/about` },
   keywords: ['About Hosting Nation','Hosting Nation company','Mohd Suhail company','software company India','web development company']
 };
 
 const VALUES = [
-  { icon: Target,      color: '#faf5ff', iconColor: '#dc3545', title: 'Outcome-driven',    desc: 'Every project ties back to a measurable business outcome — revenue, retention, or efficiency.' },
-  { icon: Users,       color: '#e0f2fe', iconColor: '#0284c7', title: 'Founder-led',        desc: 'You work directly with Mohd Suhail and a small senior team — never handed off to junior staff.' },
-  { icon: Zap,         color: '#fef9c3', iconColor: '#ca8a04', title: 'Modern stack',        desc: 'Next.js, React, Node.js, TypeScript, MongoDB — chosen for speed, scale, and longevity.' },
+  { icon: Target,      color: '#faf5ff', iconColor: '#dc3545', title: 'Outcome-driven',    desc: 'Every project ties back to a measurable business outcome revenue, retention, or efficiency.' },
+  { icon: Users,       color: '#e0f2fe', iconColor: '#0284c7', title: 'Founder-led',        desc: 'You work directly with Mohd Suhail and a small senior team never handed off to junior staff.' },
+  { icon: Zap,         color: '#fef9c3', iconColor: '#ca8a04', title: 'Modern stack',        desc: 'Next.js, React, Node.js, TypeScript, MongoDB  chosen for speed, scale, and longevity.' },
   { icon: Globe2,      color: '#ecfdf5', iconColor: '#059669', title: 'Global by default',   desc: 'Clients in the US, UK, UAE, Canada, Australia, and across Asia & Europe.' },
   { icon: ShieldCheck, color: '#fff7ed', iconColor: '#ea580c', title: 'Built to last',       desc: 'Clean architecture, documented code, automated tests, and post-launch support.' },
   { icon: Sparkles,    color: '#fdf4ff', iconColor: '#a21caf', title: 'Design-forward',      desc: 'Modern, accessible interfaces that feel as good as they perform.' },
@@ -34,7 +34,7 @@ export default function AboutPage() {
         <div className="max-w-3xl">
           <span className="eyebrow mb-4 block">About us</span>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight" style={{ color: '#000000' }}>
-            We&apos;re <span style={{ color: '#dc3545' }}>Hosting Nation</span> — a modern software studio.
+            We&apos;re <span style={{ color: '#dc3545' }}>Hosting Nation</span> a modern software studio.
           </h1>
           <p className="mt-6 text-lg leading-relaxed" style={{ color: '#606060' }}>
             Hosting Nation is a software development company founded by{' '}
@@ -58,7 +58,7 @@ export default function AboutPage() {
               Our <span style={{ color: '#dc3545' }}>mission</span>
             </h2>
             <p className="mt-4 leading-relaxed text-sm" style={{ color: '#606060' }}>
-              To make world-class custom software accessible to startups and growing businesses —
+              To make world-class custom software accessible to startups and growing businesses
               without the agency markup, without templated mediocrity.
             </p>
           </div>
@@ -86,7 +86,7 @@ export default function AboutPage() {
               Led by <span style={{ color: '#dc3545' }}>Mohd Suhail</span>
             </h2>
             <p className="mt-3 text-sm leading-relaxed" style={{ color: '#606060' }}>
-              Founder &amp; CEO. Full-stack engineer — React, Node.js, MongoDB, SaaS, and API integration.
+              Founder &amp; CEO. Full-stack engineer React, Node.js, MongoDB, SaaS, and API integration.
             </p>
             <Link href="/founder" className="btn-primary mt-5 inline-flex">
               Founder Bio <ArrowRight size={14} />

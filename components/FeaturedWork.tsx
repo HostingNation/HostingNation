@@ -7,7 +7,7 @@ const PROJECTS = [
     eyebrow:  'Sports · UK',
     title:    'WCL Cricket',
     url:      'wclcricket.com',
-    desc:     'Official digital platform for the World Championship of Legends — a UK T20 tournament featuring AB de Villiers, Yuvraj Singh & Chris Gayle, watched by 409 million people.',
+    desc:     'Official digital platform for the World Championship of Legends a UK T20 tournament featuring AB de Villiers, Yuvraj Singh & Chris Gayle, watched by 409 million people.',
     stat:     '409M viewers',
     statIcon: Users,
     tags:     ['Next.js', 'React', 'Vercel', 'TypeScript'],
@@ -19,7 +19,7 @@ const PROJECTS = [
     eyebrow:  'E-commerce · India',
     title:    'Cromy.in',
     url:      'cromy.in',
-    desc:     'End-to-end custom e-commerce storefront for a premium jeans brand in Delhi — product catalog, cart, checkout, and order management built on Next.js.',
+    desc:     'End-to-end custom e-commerce storefront for a premium jeans brand in Delhi product catalog, cart, checkout, and order management built on Next.js.',
     stat:     'Custom storefront',
     statIcon: TrendingUp,
     tags:     ['Next.js', 'Node.js', 'MongoDB', 'Stripe'],
@@ -31,7 +31,7 @@ const PROJECTS = [
     eyebrow:  'Agency · India',
     title:    'Growwfix.com',
     url:      'growwfix.com',
-    desc:     'High-converting website for a digital marketing agency — fast, clean, and optimized for lead generation across search and social.',
+    desc:     'High-converting website for a digital marketing agency fast, clean, and optimized for lead generation across search and social.',
     stat:     'Lead-gen focused',
     statIcon: Globe,
     tags:     ['Next.js', 'Tailwind CSS', 'Vercel'],
@@ -53,7 +53,7 @@ export default function FeaturedWork() {
               Trusted by <span style={{ color: '#dc3545' }}>real brands</span>
             </h2>
             <p className="mt-3 text-base max-w-xl" style={{ color: '#606060' }}>
-              From a 409-million-viewer sports platform to premium e-commerce — here&apos;s what we&apos;ve built.
+              From a 409-million-viewer sports platform to premium e-commerce here&apos;s what we&apos;ve built.
             </p>
           </div>
           <Link href="/work"
