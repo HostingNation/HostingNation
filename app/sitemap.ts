@@ -16,7 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/services/ecommerce-development', changeFrequency: 'monthly' as const, priority: 0.8 },
     { path: '/services/api-integration', changeFrequency: 'monthly' as const, priority: 0.8 },
     { path: '/services/business-automation', changeFrequency: 'monthly' as const, priority: 0.8 },
-    { path: '/contact', changeFrequency: 'yearly' as const, priority: 0.7 }
+    { path: '/contact', changeFrequency: 'yearly' as const, priority: 0.7 },
+    { path: '/work', changeFrequency: 'weekly'  as const, priority: 0.8 },
+    { path: '/work/wcl-cricket', changeFrequency: 'monthly' as const, priority: 0.8 },
   ];
 
   return routes.map((r) => ({
