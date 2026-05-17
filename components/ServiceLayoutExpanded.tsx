@@ -59,7 +59,7 @@ export default function ServiceLayoutExpanded({
         <div className="grid lg:grid-cols-3 gap-10">
           <div>
             <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">
-              Who it&apos;s <span style={{ color: '#dc3545' }}>for</span>
+              Who {"it's"} <span style={{ color: '#dc3545' }}>for</span>
             </h2>
             <ul className="mt-5 space-y-3">
               {whoFor.map((w) => (

@@ -149,7 +149,7 @@ export default function WorkPage() {
             Your project could be <span style={{ color: '#dc3545' }}>next</span>
           </h2>
           <p className="text-base leading-relaxed mb-7" style={{ color: '#606060' }}>
-            Whether it&apos;s a SaaS MVP, an e-commerce store, or a platform for millions we&apos;ve built at scale before. Let&apos;s talk about what you&apos;re building.
+            Whether {"it's"} a SaaS MVP, an e-commerce store, or a platform for millions we&apos;ve built at scale before. Let&apos;s talk about what you&apos;re building.
           </p>
           <Link href="/contact" className="btn-primary">
             Start a Project <ArrowRight size={16} />
