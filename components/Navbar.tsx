@@ -4,6 +4,7 @@ import { useEffect, useState, useTransition } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { Menu, X, Loader2 } from 'lucide-react';
 import { setNavigating } from '@/lib/navState';
+import Image from 'next/image';
 
 const NAV_LINKS = [
   { href: '/',         label: 'Home' },
@@ -25,10 +26,9 @@ export default function Navbar() {
 
         {/* Logo */}
         <NavLink href="/" className="flex items-center gap-2.5 group" aria-label="Hosting Nation — Home">
-          <span className="w-8 h-8 rounded grid place-items-center"
-            style={{ background: '#dc3545' }}>
-            <span className="text-white font-bold text-sm">HN</span>
-          </span>
+          <span className="w-8 h-8 rounded-full grid place-items-center bg-white"
+           >
+<Image src="/Logo.png" width={100} height={100} alt="Logo" />          </span>
           <span className="font-bold text-base tracking-tight text-white">
             Hosting Nation
           </span>
