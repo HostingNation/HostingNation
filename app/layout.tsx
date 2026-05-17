@@ -41,9 +41,7 @@ export const metadata: Metadata = {
     default: 'Hosting Nation | Custom Web Development, SaaS & Software Company by Mohd Suhail',
     template: '%s | Hosting Nation'
   },
-    verification: {
-    google: '9E_EUGLm0kGIZi8x9QjV5ZcOpkz8xkDPFRdgzCAq9Sg',
-  },
+   
 
   description:
     'Hosting Nation is a software development company founded by Mohd Suhail. We build custom web applications, SaaS platforms, e-commerce stores, API integrations, and business automation for startups and businesses worldwide.',
@@ -76,7 +74,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-snippet': -1, 'max-image-preview': 'large', 'max-video-preview': -1 }
   },
   icons: { icon: '/favicon.ico', apple: '/apple-touch-icon.png' },
-  verification: { google: 'your-google-site-verification-token' }
+   verification: {
+    google: '9E_EUGLm0kGIZi8x9QjV5ZcOpkz8xkDPFRdgzCAq9Sg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
