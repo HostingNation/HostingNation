@@ -4,6 +4,7 @@ import { ArrowRight, Code, Database, Cloud, Plug, Briefcase, GraduationCap, MapP
 import JsonLd from '@/components/JsonLd';
 import CTA from '@/components/CTA';
 import { breadcrumbSchema, personSchema, organizationSchema } from '@/lib/schema';
+
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -28,13 +29,62 @@ const TIMELINE = [
   { year: '2025+',title: 'Agency + Freelance Hybrid Model', desc: 'Operating Hosting Nation as both a focused agency and a freelance studio flexible engagements for any size.' }
 ];
 
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Who is Mohd Suhail?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Mohd Suhail is the Founder & CEO of Hosting Nation, a software development company based in India that builds custom web applications, SaaS platforms, and business automation tools for startups and businesses worldwide.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What does Mohd Suhail do?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Mohd Suhail is a full-stack developer specializing in React.js, Next.js, Node.js, TypeScript, MongoDB, and SaaS architecture. He works with clients across the US, UK, UAE, Canada, Australia, Europe, and Asia.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What is Hosting Nation?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Hosting Nation is a software development company founded by Mohd Suhail in 2022. It delivers custom web applications, SaaS products, dashboards, API integrations, and business automation solutions for startups and growing businesses globally.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How can I hire Mohd Suhail?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'You can hire Mohd Suhail through Hosting Nation by visiting the contact page at hostingnation.co.in/contact or emailing hostingnation.info@gmail.com. He is available for freelance projects, agency engagements, and fractional CTO roles.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Where is Mohd Suhail based?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Mohd Suhail is based in India and works remotely with clients worldwide including the US, UK, UAE, Europe, and Asia.'
+      }
+    },
+  ]
+};
+
 export default function FounderPage() {
   return (
     <>
+    
       <JsonLd data={personSchema} />
       <JsonLd data={organizationSchema} />
       <JsonLd data={breadcrumbSchema([{ name:'Home', url:siteConfig.url },{ name:'Founder', url:`${siteConfig.url}/founder` }])} />
-
+      <JsonLd data={faqSchema} />   
       {/* Hero */}
       <section className="section pt-28 md:pt-32">
         <div className="grid lg:grid-cols-5 gap-12 items-center">
