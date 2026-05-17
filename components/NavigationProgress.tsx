@@ -39,7 +39,7 @@ export default function NavigationProgress() {
         }, 400);
       }
     });
-    return unsub;
+    return () => void unsub();
   }, []);
 
   /* ── When route actually changes → clear loading ─────── */
