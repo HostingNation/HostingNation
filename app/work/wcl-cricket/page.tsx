@@ -228,7 +228,7 @@ export default function WCLCricketCaseStudy() {
             Testimonial from WCL management coming soon.
           </p>
           <div className="mt-6">
-            <p className="text-sm font-bold" style={{ color: '#000' }} WCL Management</p>
+            <p className="text-sm font-bold" style={{ color: '#000' }}> WCL Management</p>
             <p className="text-xs mt-1" style={{ color: '#888' }}>World Championship of Legends, United Kingdom</p>
           </div>
         </div>
