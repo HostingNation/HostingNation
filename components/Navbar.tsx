@@ -8,10 +8,11 @@ import Image from 'next/image';
 
 const NAV_LINKS = [
   { href: '/',         label: 'Home' },
-  { href: '/about',    label: 'About' },
   { href: '/services', label: 'Services' },
-  { href: '/founder',  label: 'Founder' },
-  { href: '/contact',  label: 'Contact' },
+  { href: '/work',     label: 'Work' },
+  { href: '/pricing',  label: 'Pricing' },
+  { href: '/blog',     label: 'Blog' },
+  { href: '/about',    label: 'About' },
 ];
 
 export default function Navbar() {

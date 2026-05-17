@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Hero from '@/components/Hero';
 import ServicesGrid from '@/components/ServicesGrid';
+import FeaturedWork from '@/components/FeaturedWork';
 import FounderSection from '@/components/FounderSection';
 import TrustBar from '@/components/TrustBar';
 import Process from '@/components/Process';
+import SocialProof from '@/components/SocialProof';
 import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
@@ -38,8 +40,10 @@ export default function HomePage() {
       <Hero />
       <TrustBar />
       <ServicesGrid />
-      <FounderSection />
+      <FeaturedWork />
       <Process />
+      <SocialProof />
+      <FounderSection />
       <FAQ />
       <CTA />
     </>

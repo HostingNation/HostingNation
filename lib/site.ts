@@ -26,6 +26,8 @@ export const siteConfig = {
     locality: 'India',
     country: 'IN'
   },
+    whatsapp: 'https://wa.me/919818435920',
+  calendly: 'https://calendly.com/hostingnation-info/30min',
   social: {
     twitter: 'https://twitter.com/hostingnation',
     linkedin: 'https://www.linkedin.com/company/hosting-nation',

@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const STATS = [
-  { k: '50+',  v: 'Projects Delivered' },
-  { k: '15+',  v: 'Countries Served' },
-  { k: '100%', v: 'Custom-Built Code' },
-  { k: '3yr+', v: 'In Business' },
+  { k: '50+',   v: 'Projects Delivered' },
+  { k: '15+',   v: 'Countries Served' },
+  { k: '409M',  v: 'Viewers — Biggest Client' },
+  { k: '3yr+',  v: 'In Business' },
 ];
 
 export default function Hero() {
@@ -23,24 +23,24 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-[60px] font-extrabold leading-[1.06] tracking-tight" style={{ color: '#000000' }}>
-              Custom Software<br />
-              <span style={{ color: '#dc3545' }}>Built for Your</span><br />
-              Business
+              We Build Software<br />
+              <span style={{ color: '#dc3545' }}>That Scales</span><br />
+              — From MVP to Millions
             </h1>
 
             <p className="mt-5 text-lg leading-relaxed slide-up-delay" style={{ color: '#606060' }}>
-              Web apps, SaaS platforms, dashboards, and automation — built by{' '}
+              Hosting Nation is a full-stack development studio trusted by startups and brands
+              across the US, UK, UAE, and beyond — led directly by{' '}
               <Link href="/founder" className="font-semibold underline underline-offset-2 transition-colors" style={{ color: '#000000' }}>
                 Mohd Suhail
-              </Link>{' '}
-              for startups and businesses worldwide.
+              </Link>. We ship clean code, fast.
             </p>
 
             <ul className="mt-6 space-y-2.5 slide-up-delay">
               {[
                 'No templates — everything engineered from scratch',
-                'Founder-led with direct communication',
-                'Clients across US, UK, UAE, EU & Asia',
+                'You talk to the founder, not a project manager',
+                'Built for WCL Cricket — watched by 409M people',
               ].map((t) => (
                 <li key={t} className="flex items-center gap-2.5 text-sm" style={{ color: '#606060' }}>
                   <CheckCircle2 size={15} style={{ color: '#dc3545', flexShrink: 0 }} />
@@ -51,10 +51,10 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/contact" className="btn-primary">
-                Start Your Project <ArrowRight size={16} />
+                Book a Free Strategy Call <ArrowRight size={16} />
               </Link>
-              <Link href="/services" className="btn-outline">
-                Explore Services
+              <Link href="/work" className="btn-outline">
+                View Our Work
               </Link>
             </div>
 
