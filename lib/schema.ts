@@ -39,6 +39,7 @@ export const organizationSchema = {
     '@type': 'ContactPoint',
     contactType: 'customer support',
     email: siteConfig.email,
+    telephone: siteConfig.phone,
     availableLanguage: ['English', 'Hindi']
   },
   sameAs: Object.values(siteConfig.social),
@@ -100,13 +101,10 @@ export const websiteSchema = {
   '@id': `${siteConfig.url}/#website`,
   url: siteConfig.url,
   name: siteConfig.name,
+  description:
+    'Hosting Nation is a software development company founded by Mohd Suhail, building custom web applications, SaaS platforms, e-commerce stores, and business automation.',
   publisher: { '@id': `${siteConfig.url}/#organization` },
-  inLanguage: 'en-IN',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: `${siteConfig.url}/search?q={search_term_string}`,
-    'query-input': 'required name=search_term_string'
-  }
+  inLanguage: 'en-IN'
 };
 
 export const faqSchema = {
@@ -195,4 +193,52 @@ export const serviceSchema = (service: {
     '@type': 'Audience',
     audienceType: 'Startups, businesses, and entrepreneurs'
   }
+});
+
+// Generic FAQPage schema builder — pass the same Q&A pairs rendered on the page.
+export const faqPageSchema = (faqs: { q: string; a: string }[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a
+    }
+  }))
+});
+
+// BlogPosting / Article schema builder for blog posts.
+export const articleSchema = (article: {
+  title: string;
+  description: string;
+  slug: string;
+  datePublished: string;
+  dateModified?: string;
+  section?: string;
+  image?: string;
+}) => ({
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  '@id': `${siteConfig.url}/blog/${article.slug}#article`,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `${siteConfig.url}/blog/${article.slug}`
+  },
+  headline: article.title,
+  description: article.description,
+  url: `${siteConfig.url}/blog/${article.slug}`,
+  image: article.image ?? `${siteConfig.url}/images/og-cover.png`,
+  datePublished: article.datePublished,
+  dateModified: article.dateModified ?? article.datePublished,
+  ...(article.section ? { articleSection: article.section } : {}),
+  inLanguage: 'en-IN',
+  author: {
+    '@type': 'Person',
+    '@id': `${siteConfig.url}/founder#person`,
+    name: siteConfig.founder.name,
+    url: `${siteConfig.url}/founder`
+  },
+  publisher: { '@id': `${siteConfig.url}/#organization` }
 });

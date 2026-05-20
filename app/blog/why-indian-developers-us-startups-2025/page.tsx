@@ -3,18 +3,30 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/schema';
+import { breadcrumbSchema, articleSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Why Indian Developers Are the Best Choice for US Startups in 2025 | Hosting Nation',
+const POST = {
+  slug: 'why-indian-developers-us-startups-2025',
+  title: 'Why Indian Developers Are the Best Choice for US Startups in 2025',
   description:
     'The outdated reputation vs. the current reality. Why the best-funded US startups are quietly building with Indian developers and how to find the right ones.',
-  alternates: { canonical: `${siteConfig.url}/blog/why-indian-developers-us-startups-2025` },
+  datePublished: '2025-05-05',
+  section: 'Hiring & Outsourcing',
+};
+
+export const metadata: Metadata = {
+  title: 'Indian Developers for US Startups in 2025',
+  description: POST.description,
+  alternates: { canonical: `${siteConfig.url}/blog/${POST.slug}` },
   openGraph: {
+    type: 'article',
     title: 'Why Indian Developers Are the Best Choice for US Startups in 2025 | Hosting Nation',
     description: 'The outdated reputation vs. the current reality of hiring Indian development talent.',
-    url: `${siteConfig.url}/blog/why-indian-developers-us-startups-2025`,
+    url: `${siteConfig.url}/blog/${POST.slug}`,
+    publishedTime: POST.datePublished,
+    authors: [`${siteConfig.url}/founder`],
+    images: ['/images/og-cover.png'],
   },
   keywords: ['hire Indian developers', 'offshore development US startups', 'India software development', 'outsource web development', 'Indian software agency'],
 };
@@ -72,6 +84,7 @@ export default function IndianDevelopersBlogPost() {
         { name: 'Blog', url: `${siteConfig.url}/blog` },
         { name: 'Why Indian Developers Are the Best Choice for US Startups', url: `${siteConfig.url}/blog/why-indian-developers-us-startups-2025` },
       ])} />
+      <JsonLd data={articleSchema(POST)} />
 
       <article>
         <section className="section pt-28 md:pt-32">

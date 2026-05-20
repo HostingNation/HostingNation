@@ -6,15 +6,16 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Services | Web Development, SaaS, Software & Automation Hosting Nation',
+  title: 'Web Development, SaaS & Software Services',
   description:
     'Hosting Nation services: custom web development, SaaS development, e-commerce, API integration, business automation, and custom software by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services` },
   openGraph: {
-    title: 'Services Hosting Nation',
+    title: 'Services | Hosting Nation',
     description:
       'Custom web development, SaaS, e-commerce, API integration, and business automation by Mohd Suhail.',
-    url: `${siteConfig.url}/services`
+    url: `${siteConfig.url}/services`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'Hosting Nation services',

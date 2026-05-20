@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Business Automation Services | Hosting Nation by Mohd Suhail',
+  title: 'Business Automation Services',
   description:
     'Business process automation by Hosting Nation. Automate invoicing, leads, reports, onboarding, and ops with custom scripts and AI. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/business-automation` },
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'Business Automation Services | Hosting Nation',
     description:
       'Automate manual workflows invoicing, leads, reports, onboarding, and ops with custom scripts and AI.',
-    url: `${siteConfig.url}/services/business-automation`
+    url: `${siteConfig.url}/services/business-automation`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'business automation',

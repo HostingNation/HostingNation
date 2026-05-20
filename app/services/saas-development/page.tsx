@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'SaaS Development | Build Your SaaS with Hosting Nation',
+  title: 'SaaS Development Services',
   description:
     'End-to-end SaaS development by Hosting Nation. Multi-tenant architecture, auth, billing, dashboards, and cloud deployment. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/saas-development` },
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'SaaS Development | Hosting Nation',
     description:
       'Build production-ready SaaS products with Hosting Nation auth, billing, dashboards, and scalable cloud deployment.',
-    url: `${siteConfig.url}/services/saas-development`
+    url: `${siteConfig.url}/services/saas-development`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'SaaS development',

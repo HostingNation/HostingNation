@@ -38,7 +38,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Hosting Nation | Custom Web Development, SaaS & Software Company by Mohd Suhail',
+    default: 'Hosting Nation | Custom Web, SaaS & Software Development',
     template: '%s | Hosting Nation'
   },
    

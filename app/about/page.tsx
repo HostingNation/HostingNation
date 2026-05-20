@@ -7,10 +7,10 @@ import { breadcrumbSchema, organizationSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'About Hosting Nation | Software Company Founded by Mohd Suhail',
+  title: 'About — Software Company by Mohd Suhail',
   description: 'Learn about Hosting Nation a software development company founded by Mohd Suhail. We build custom web apps, SaaS platforms, and business automation for startups and businesses worldwide.',
   alternates: { canonical: `${siteConfig.url}/about` },
-  openGraph: { title: 'About Hosting Nation | Software Company Founded by Mohd Suhail', description: 'Hosting Nation is a software development company founded by Mohd Suhail.', url: `${siteConfig.url}/about` },
+  openGraph: { title: 'About Hosting Nation | Software Company Founded by Mohd Suhail', description: 'Hosting Nation is a software development company founded by Mohd Suhail.', url: `${siteConfig.url}/about`, images: ['/images/og-cover.png'] },
   keywords: ['About Hosting Nation','Hosting Nation company','Mohd Suhail company','software company India','web development company']
 };
 

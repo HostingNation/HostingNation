@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Custom Software Development | Hosting Nation by Mohd Suhail',
+  title: 'Custom Software Development',
   description:
     'Custom software development by Hosting Nation. Tailored CRMs, ERPs, dashboards, and internal tools built around your real workflow. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/custom-software-development` },
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'Custom Software Development | Hosting Nation',
     description:
       'Tailored CRMs, ERPs, internal tools, and admin dashboards built around how your business actually works.',
-    url: `${siteConfig.url}/services/custom-software-development`
+    url: `${siteConfig.url}/services/custom-software-development`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'custom software development',

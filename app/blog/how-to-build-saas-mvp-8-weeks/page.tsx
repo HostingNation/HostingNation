@@ -3,18 +3,30 @@ import Link from 'next/link';
 import { ArrowRight, Check } from 'lucide-react';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/schema';
+import { breadcrumbSchema, articleSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'How to Build a SaaS MVP in 8 Weeks: A Technical Roadmap | Hosting Nation',
+const POST = {
+  slug: 'how-to-build-saas-mvp-8-weeks',
+  title: 'How to Build a SaaS MVP in 8 Weeks: A Technical Roadmap',
   description:
     'A week-by-week technical roadmap for building a production-ready SaaS MVP in 8 weeks. Stack choices, architecture decisions, billing, and go-live.',
-  alternates: { canonical: `${siteConfig.url}/blog/how-to-build-saas-mvp-8-weeks` },
+  datePublished: '2025-05-12',
+  section: 'SaaS Development',
+};
+
+export const metadata: Metadata = {
+  title: 'How to Build a SaaS MVP in 8 Weeks',
+  description: POST.description,
+  alternates: { canonical: `${siteConfig.url}/blog/${POST.slug}` },
   openGraph: {
+    type: 'article',
     title: 'How to Build a SaaS MVP in 8 Weeks | Hosting Nation',
     description: 'A week-by-week technical roadmap from scope to production launch.',
-    url: `${siteConfig.url}/blog/how-to-build-saas-mvp-8-weeks`,
+    url: `${siteConfig.url}/blog/${POST.slug}`,
+    publishedTime: POST.datePublished,
+    authors: [`${siteConfig.url}/founder`],
+    images: ['/images/og-cover.png'],
   },
   keywords: ['build SaaS MVP', 'SaaS development roadmap', 'SaaS MVP 8 weeks', 'how to launch SaaS', 'SaaS architecture'],
 };
@@ -100,6 +112,7 @@ export default function SaasMVPBlogPost() {
         { name: 'Blog', url: `${siteConfig.url}/blog` },
         { name: 'How to Build a SaaS MVP in 8 Weeks', url: `${siteConfig.url}/blog/how-to-build-saas-mvp-8-weeks` },
       ])} />
+      <JsonLd data={articleSchema(POST)} />
 
       <article>
         {/* Header */}

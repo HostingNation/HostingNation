@@ -7,7 +7,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Blog | Hosting Nation Web Development & SaaS Insights',
+  title: 'Blog — Web Development & SaaS Insights',
   description:
     'Practical guides on SaaS development, Next.js, web performance, and building software for startups by Mohd Suhail, Founder of Hosting Nation.',
   alternates: { canonical: `${siteConfig.url}/blog` },
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'Blog | Hosting Nation',
     description: 'Technical guides and insights on SaaS, Next.js, and building software for startups.',
     url: `${siteConfig.url}/blog`,
+    images: ['/images/og-cover.png'],
   },
 };
 
@@ -45,6 +46,30 @@ const POSTS = [
   },
 ];
 
+const blogSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  '@id': `${siteConfig.url}/blog#blog`,
+  url: `${siteConfig.url}/blog`,
+  name: 'Hosting Nation Blog',
+  description:
+    'Practical guides on SaaS development, Next.js, web performance, and building software for startups by Mohd Suhail, Founder of Hosting Nation.',
+  inLanguage: 'en-IN',
+  publisher: { '@id': `${siteConfig.url}/#organization` },
+  blogPost: POSTS.map((post) => ({
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    url: `${siteConfig.url}/blog/${post.slug}`,
+    articleSection: post.tag,
+    author: {
+      '@type': 'Person',
+      name: 'Mohd Suhail',
+      url: `${siteConfig.url}/founder`,
+    },
+  })),
+};
+
 export default function BlogPage() {
   return (
     <>
@@ -52,6 +77,7 @@ export default function BlogPage() {
         { name: 'Home', url: siteConfig.url },
         { name: 'Blog', url: `${siteConfig.url}/blog` },
       ])} />
+      <JsonLd data={blogSchema} />
 
       <section className="section pt-28 md:pt-32">
         <div className="max-w-3xl">

@@ -7,7 +7,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'WCL Cricket Case Study Building for 409M Viewers | Hosting Nation',
+  title: 'WCL Cricket Case Study — 409M Viewers',
   description:
     'How Hosting Nation built the official digital platform for World Championship of Legends Cricket a UK T20 tournament watched by 409 million people, featuring AB de Villiers, Yuvraj Singh & Chris Gayle.',
   alternates: { canonical: `${siteConfig.url}/work/wcl-cricket` },
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'WCL Cricket Case Study | Hosting Nation',
     description: 'How Hosting Nation built the official platform for a 409M-viewer cricket tournament.',
     url: `${siteConfig.url}/work/wcl-cricket`,
+    images: ['/images/og-cover.png'],
   },
 };
 

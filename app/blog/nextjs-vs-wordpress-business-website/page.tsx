@@ -3,18 +3,30 @@ import Link from 'next/link';
 import { ArrowRight, Check, X } from 'lucide-react';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/schema';
+import { breadcrumbSchema, articleSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Next.js vs WordPress: Which Is Better for Your Business Website? | Hosting Nation',
+const POST = {
+  slug: 'nextjs-vs-wordpress-business-website',
+  title: 'Next.js vs WordPress: Which Is Better for Your Business Website?',
   description:
     'A direct, balanced comparison of Next.js and WordPress for business websites. Not a Next.js advertisement the honest answer depends on what you actually need.',
-  alternates: { canonical: `${siteConfig.url}/blog/nextjs-vs-wordpress-business-website` },
+  datePublished: '2025-04-18',
+  section: 'Web Development',
+};
+
+export const metadata: Metadata = {
+  title: 'Next.js vs WordPress for Business Websites',
+  description: POST.description,
+  alternates: { canonical: `${siteConfig.url}/blog/${POST.slug}` },
   openGraph: {
+    type: 'article',
     title: 'Next.js vs WordPress: Which Is Better for Your Business Website? | Hosting Nation',
     description: 'A direct, practical comparison the honest answer depends on what you actually need.',
-    url: `${siteConfig.url}/blog/nextjs-vs-wordpress-business-website`,
+    url: `${siteConfig.url}/blog/${POST.slug}`,
+    publishedTime: POST.datePublished,
+    authors: [`${siteConfig.url}/founder`],
+    images: ['/images/og-cover.png'],
   },
   keywords: ['Next.js vs WordPress', 'best website platform for business', 'WordPress alternatives', 'Next.js for business', 'should I use WordPress'],
 };
@@ -37,6 +49,7 @@ export default function NextjsVsWordpressBlogPost() {
         { name: 'Blog', url: `${siteConfig.url}/blog` },
         { name: 'Next.js vs WordPress', url: `${siteConfig.url}/blog/nextjs-vs-wordpress-business-website` },
       ])} />
+      <JsonLd data={articleSchema(POST)} />
 
       <article>
         <section className="section pt-28 md:pt-32">

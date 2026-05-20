@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'API Integration Services | Hosting Nation by Mohd Suhail',
+  title: 'API Integration Services',
   description:
     'API integration services by Hosting Nation. Connect Stripe, Razorpay, OpenAI, WhatsApp, CRMs, and any 3rd-party API into one reliable system. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/api-integration` },
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'API Integration Services | Hosting Nation',
     description:
       'Connect payments, AI, messaging, CRMs, and any 3rd-party API into one reliable workflow.',
-    url: `${siteConfig.url}/services/api-integration`
+    url: `${siteConfig.url}/services/api-integration`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'API integration services',

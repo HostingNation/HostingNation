@@ -6,13 +6,14 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Contact Hosting Nation | Hire Mohd Suhail for Your Project',
+  title: 'Contact — Hire Mohd Suhail',
   description: 'Get in touch with Hosting Nation. Hire Mohd Suhail for custom web development, SaaS, software, and automation projects. We work with clients globally.',
   alternates: { canonical: `${siteConfig.url}/contact` },
   openGraph: {
     title: 'Contact Hosting Nation | Hire Mohd Suhail',
     description: 'Hire Mohd Suhail and the Hosting Nation team for custom web, SaaS, and software projects.',
-    url: `${siteConfig.url}/contact`
+    url: `${siteConfig.url}/contact`,
+    images: ['/images/og-cover.png']
   },
   keywords: ['contact Hosting Nation', 'hire Mohd Suhail', 'hire web developer', 'custom software quote']
 };

@@ -29,7 +29,7 @@ export default function Navbar() {
         <NavLink href="/" className="flex items-center gap-2.5 group" aria-label="Hosting Nation Home">
           <span className="w-8 h-8 rounded-full grid place-items-center bg-white"
            >
-<Image src="/Logo.png" width={100} height={100} alt="Logo" />          </span>
+<Image src="/Logo.png" width={100} height={100} alt="Hosting Nation logo" />          </span>
           <span className="font-bold text-base tracking-tight text-white">
             Hosting Nation
           </span>

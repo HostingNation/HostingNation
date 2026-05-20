@@ -68,6 +68,9 @@ export default function Footer() {
                 { href: '/about',   l: 'About' },
                 { href: '/founder', l: 'Founder - Mohd Suhail' },
                 { href: '/services',l: 'Services' },
+                { href: '/work',    l: 'Work & Portfolio' },
+                { href: '/pricing', l: 'Pricing' },
+                { href: '/blog',    l: 'Blog' },
                 { href: '/contact', l: 'Contact' },
               ].map(({ href, l }) => (
                 <li key={href}>

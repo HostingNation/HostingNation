@@ -7,7 +7,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Work & Portfolio | Hosting Nation by Mohd Suhail',
+  title: 'Our Work & Client Portfolio',
   description:
     'Projects built by Hosting Nation including WCL Cricket (409M viewers), Cromy e-commerce, and Growwfix. Custom web development, SaaS, and e-commerce.',
   alternates: { canonical: `${siteConfig.url}/work` },
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'Work & Portfolio | Hosting Nation',
     description: 'Real projects built by Hosting Nation from a 409M-viewer sports platform to premium e-commerce.',
     url: `${siteConfig.url}/work`,
+    images: ['/images/og-cover.png'],
   },
 };
 

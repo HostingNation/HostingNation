@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, Check } from 'lucide-react';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
-import { breadcrumbSchema, serviceSchema } from '@/lib/schema';
+import { breadcrumbSchema, serviceSchema, faqPageSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export interface ServiceFAQ { q: string; a: string; }
@@ -38,6 +38,7 @@ export default function ServiceLayoutExpanded({
         { name: 'Services', url: `${siteConfig.url}/services` },
         { name: title,      url },
       ])} />
+      {faqs.length > 0 && <JsonLd data={faqPageSchema(faqs)} />}
 
       {/* Hero */}
       <section className="section pt-28 md:pt-32">

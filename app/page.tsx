@@ -13,8 +13,9 @@ import { faqSchema, breadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title:
-    'Hosting Nation | Custom Web Development, SaaS & Software Company by Mohd Suhail',
+  title: {
+    absolute: 'Hosting Nation | Custom Web, SaaS & Software Development',
+  },
   description:
     'Hosting Nation, founded by Mohd Suhail, builds custom web applications, SaaS platforms, e-commerce stores, API integrations, and business automation for startups and businesses worldwide.',
   alternates: { canonical: siteConfig.url },
@@ -23,7 +24,8 @@ export const metadata: Metadata = {
       'Hosting Nation | Custom Web Development, SaaS & Software Company by Mohd Suhail',
     description:
       'Founded by Mohd Suhail, Hosting Nation builds custom web applications and software solutions for startups and businesses around the world.',
-    url: siteConfig.url
+    url: siteConfig.url,
+    images: ['/images/og-cover.png']
   }
 };
 

@@ -3,11 +3,11 @@ import Link from 'next/link';
 import { ArrowRight, Check } from 'lucide-react';
 import CTA from '@/components/CTA';
 import JsonLd from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/schema';
+import { breadcrumbSchema, faqPageSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Pricing | Hosting Nation Web Development & SaaS',
+  title: 'Pricing — Web Development & SaaS',
   description:
     'Transparent, fixed-price web development packages. Starter from $1,500 · Business from $4,000 · SaaS MVP from $8,000 · Enterprise custom. No surprises.',
   alternates: { canonical: `${siteConfig.url}/pricing` },
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'Pricing | Hosting Nation',
     description: 'Transparent pricing for web apps, SaaS MVPs, e-commerce, and enterprise builds.',
     url: `${siteConfig.url}/pricing`,
+    images: ['/images/og-cover.png'],
   },
 };
 
@@ -131,6 +132,7 @@ export default function PricingPage() {
         { name: 'Home', url: siteConfig.url },
         { name: 'Pricing', url: `${siteConfig.url}/pricing` },
       ])} />
+      <JsonLd data={faqPageSchema(FAQS)} />
 
       {/* Header */}
       <section className="section pt-28 md:pt-32">

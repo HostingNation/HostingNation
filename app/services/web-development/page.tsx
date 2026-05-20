@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Web Development Services | Hosting Nation by Mohd Suhail',
+  title: 'Web Development Services',
   description:
     'Custom web development services by Hosting Nation. Fast, SEO-friendly websites and full-stack web apps built with Next.js, React, Node.js & MongoDB. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/web-development` },
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     title: 'Web Development Services | Hosting Nation',
     description: 'High-performance websites and full-stack web apps built with Next.js, React, Node.js, and MongoDB.',
     url: `${siteConfig.url}/services/web-development`,
+    images: ['/images/og-cover.png'],
   },
   keywords: [
     'web development company', 'Next.js development agency', 'React development services',

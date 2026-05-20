@@ -3,7 +3,7 @@ import ServiceLayoutExpanded from '@/components/ServiceLayoutExpanded';
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'E-commerce Development | Hosting Nation by Mohd Suhail',
+  title: 'E-commerce Development Services',
   description:
     'Custom and headless e-commerce development by Hosting Nation. High-conversion online stores, payment integrations, and scalable storefronts. Founded by Mohd Suhail.',
   alternates: { canonical: `${siteConfig.url}/services/ecommerce-development` },
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'E-commerce Development | Hosting Nation',
     description:
       'Custom and headless e-commerce stores with conversion-optimized checkout, payment gateways, and analytics.',
-    url: `${siteConfig.url}/services/ecommerce-development`
+    url: `${siteConfig.url}/services/ecommerce-development`,
+    images: ['/images/og-cover.png']
   },
   keywords: [
     'ecommerce development',

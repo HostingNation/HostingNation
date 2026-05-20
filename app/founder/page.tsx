@@ -8,10 +8,10 @@ import { breadcrumbSchema, personSchema, organizationSchema } from '@/lib/schema
 import { siteConfig } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation',
+  title: 'Meet Mohd Suhail — Founder & CEO',
   description: 'Mohd Suhail is the Founder & CEO of Hosting Nation. Full-stack developer specializing in React, Node.js, SaaS, dashboards, and API integration working with startups and businesses globally.',
   alternates: { canonical: `${siteConfig.url}/founder` },
-  openGraph: { title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation', description: 'Mohd Suhail Founder & CEO of Hosting Nation.', url: `${siteConfig.url}/founder` },
+  openGraph: { title: 'Meet Mohd Suhail | Founder & CEO of Hosting Nation', description: 'Mohd Suhail Founder & CEO of Hosting Nation.', url: `${siteConfig.url}/founder`, images: ['/images/og-cover.png'] },
   keywords: ['Mohd Suhail','Suhail','Mohd Suhail Founder Hosting Nation','Hosting Nation founder']
 };
 
