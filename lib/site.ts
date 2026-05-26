@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Hosting Nation',
-  legalName: 'Hosting Nation',
-  url: 'https://hostingnation.co.in',
+  legalName:h 'Hosting Nation',h
+  url: 'https://www.hostingnation.co.in',
   email: 'hostingnation.info@gmail.com',
   phone: '+91-98184-35920',
   founder: {
